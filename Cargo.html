@@ -1,0 +1,103 @@
+
+<!-- //////////////// Anchor Scrolling Script ////////////////// -->
+
+<!-- Javascript Script -->
+<script type="text/javascript">
+  function findAnchor(linkID)
+  {
+    var yPosition= $("#"+linkID).offset().top; //find anchor pos
+    var yOffset = 100; //offset down
+    var Moffset = 0 //init variable
+    Moffset = (yPosition - yOffset) + "px"; //sum ypos - offset + "px"
+    $('html,body').animate( {scrollTop: Moffset}, 1500); //animate
+  }
+</script> 
+
+<!-- Link in Menu example -->
+<a href="javascript:void(0)" onclick="findAnchor('about')">About</a>
+
+
+<!-- Anchor Position example -->
+<div id="about"></div> 
+
+<!-- /////////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+<!-- //////////////// Global site tag Script ////////////////// -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146855149-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146855149-1');
+</script>
+<!-- /////////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+<!-- ///////////////////////// HIDDEN TEXT ///////////////////////// -->
+
+<!-- Bootstrap Javascript Script -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap CSS Script -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+<!-- ---------------DISPLAY TEXT---------------- -->
+SHOWN TEXT 
+<!-- ------------------------------------------ -->
+
+
+<!-- ---------------HIDDEN TEXT---------------- -->
+<div id="demo" class="collapse" aria-expanded="false">
+HIDDEN TEXT<br>
+</div>
+<!-- ------------------------------------------ -->
+
+
+<!-- ----------LINK SHOW TEXT----------------- -->
+<button data-toggle="collapse" data-target="#demo" class="" aria-expanded="false">
+More +
+</button>
+<!-- ------------------------------------------ -->
+
+<!-- /////////////////////////////////////////////////////////// -->
+
+
+
+
+
+<!-- ///////////////////////// OPEN NEW WINDOW DIMENSION  ///////////////////////// -->
+<a href="javascript:void( window.open('9509193', 'blank','scrollbars=yes,toolbar=no,width=500,height=1000'))">ENTER</a>
+<!-- /////////////////////////////////////////////////////////// -->
+
+<!-- ///////////////////////// FONT ICON  ///////////////////////// -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+https://fontawesome.com/icons?d=gallery&p=2&m=free
+
+<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+<i class="fa fa-instagram" aria-hidden="true"></i> 
+<i class="fa fa-twitter" aria-hidden="true"></i>  
+<i class="fa fa-vimeo-square" aria-hidden="true"></i>
+
+
+<!-- /////////////////////////////////////////////////////////// -->
